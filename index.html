@@ -23,6 +23,21 @@
   </head>
 
   <body class="back">
+    <div id="cookie-popup" class="cookie-popup">
+      <div class="cookie-popup-container">
+        <p class="cookie-popup-text-two">
+          Our website use cookies. By continuing, we assume your permission to
+          deploy cookies as detailed in our Privacy Policy.
+        </p>
+        <div class="cookie-button-container">
+          <button id="decline-cookies" class="cookie-button">Decline</button>
+
+          <button id="accept-cookies" class="cookie-button">
+            Accept cookies
+          </button>
+        </div>
+      </div>
+    </div>
     <header class="header">
       <div class="header__background"></div>
       <nav class="navigation">
@@ -62,9 +77,28 @@
           <li class="navigation__item">
             <a href="/#features" class="navigation__link">Special Features</a>
           </li>
+          <li class="navigation__item">
+            <a
+              href="/policy.html"
+              class="navigation__link navigation__item-desk"
+              >Privacy Policy</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="/terms.html" class="navigation__link navigation__item-desk"
+              >Terms and Conditions</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a
+              href="/cookies.html"
+              class="navigation__link navigation__item-desk"
+              >Cookies Policy</a
+            >
+          </li>
         </ul>
 
-        <div class="header__button-wrapper policy-terms-header__button-wrapper">
+        <div class="header__button-wrapper">
           <a href="/" class="policy-terms-header__icon--menu"
             ><img href="/" class="header-title" alt=""
           /></a>
@@ -89,6 +123,7 @@
     <main class="main">
       <section class="home" id="home">
         <div class="home__container-top">
+          <img class="home-title-img" src="" alt="" />
           <p class="home-title">Merge Food - Chef Decoration</p>
           <p class="home-text">Cook, Merge, and Create Your Dream Kitchen!</p>
           <a
@@ -117,45 +152,6 @@
               </p>
             </div>
           </li>
-          <li class="why-item">
-            <img class="why-img" src="/img/why/image 2.png" alt="" />
-            <div>
-              <p class="why-text-bold">Creative Gameplay</p>
-              <p class="why-text">
-                Merge ingredients to create unique dishes and decorate your
-                dream kitchen.
-              </p>
-            </div>
-          </li>
-
-          <li class="why-item">
-            <img class="why-img" src="/img/why/award_3658894 1.png" alt="" />
-            <div>
-              <p class="why-text-bold">Rewarding Challenges</p>
-              <p class="why-text">
-                Complete tasks to unlock rare items and exclusive decorations.
-              </p>
-            </div>
-          </li>
-          <li class="why-item">
-            <img class="why-img" src="/img/why/kitty_763757 1.png" alt="" />
-            <div>
-              <p class="why-text-bold">Adorable Characters</p>
-              <p class="why-text">
-                Interact with quirky chefs and lovable kitchen helpers.
-              </p>
-            </div>
-          </li>
-          <li class="why-item">
-            <img class="why-img" src="/img/why/image 4.png" alt="" />
-            <div>
-              <p class="why-text-bold">Offline Mode</p>
-              <p class="why-text">
-                Enjoy the game anywhere, anytime without needing an internet
-                connection.
-              </p>
-            </div>
-          </li>
         </ul>
       </section>
       <section class="uniqueness" id="uniqueness">
@@ -167,33 +163,6 @@
             <p class="uniqueness-text">
               Discover unexpected recipes and combinations by merging
               ingredients.
-            </p>
-          </li>
-          <li class="uniqueness-item">
-            <p class="uniqueness-text-bold">2. Customizable Kitchens</p>
-            <p class="uniqueness-text">
-              Decorate and design your kitchen with hundreds of stylish items.
-            </p>
-          </li>
-          <li class="uniqueness-item">
-            <p class="uniqueness-text-bold">3. Quirky Chef Stories:</p>
-            <p class="uniqueness-text">
-              Follow the journey of chefs with unique personalities and
-              challenges.
-            </p>
-          </li>
-          <li class="uniqueness-item">
-            <p class="uniqueness-text-bold">4. Seasonal Events</p>
-            <p class="uniqueness-text">
-              Participate in special events to unlock limited-edition dishes and
-              decorations.
-            </p>
-          </li>
-          <li class="uniqueness-item">
-            <p class="uniqueness-text-bold">5. Social Connection:</p>
-            <p class="uniqueness-text">
-              Share your kitchen designs and compete with friends to become the
-              ultimate master chef.
             </p>
           </li>
         </ul>
@@ -220,37 +189,6 @@
               Drag and merge identical food items to discover new recipes.
             </p>
           </li>
-
-          <li class="how-item">
-            <img class="how-img" src="/img/how/11945040 1.png" alt="" />
-            <p class="how-text-bold">Decorate Your Kitchen:</p>
-            <p class="how-text">
-              Use earned coins to customize and upgrade your kitchen space.
-            </p>
-          </li>
-          <li class="how-item">
-            <img class="how-img" src="/img/how/image 6.png" alt="" />
-            <p class="how-text-bold">Complete Orders</p>
-            <p class="how-text">
-              Fulfill customer requests to earn rewards and unlock new
-              ingredients.
-            </p>
-          </li>
-          <li class="how-item">
-            <img class="how-img" src="/img/how/image 7.png" alt="" />
-            <p class="how-text-bold">Use Boosters</p>
-            <p class="how-text">
-              Activate boosters to speed up merging and clear challenging
-              levels.
-            </p>
-          </li>
-          <li class="how-item">
-            <img class="how-img" src="/img/how/10162620 1.png" alt="" />
-            <p class="how-text-bold">Explore and Expand</p>
-            <p class="how-text">
-              Unlock new kitchen zones and culinary adventures as you progress.
-            </p>
-          </li>
         </ul>
       </section>
       <section class="characters" id="characters">
@@ -261,33 +199,6 @@
             <p class="characters-text">
               A cheerful pastry chef who inspires creativity in the kitchen with
               her love for desserts.
-            </p>
-          </li>
-
-          <li class="characters-item">
-            <p class="characters-text-bold">Chef Marco:</p>
-            <p class="characters-text">
-              A perfectionist specializing in Italian cuisine. His secret
-              weapon? Homemade sauces!
-            </p>
-          </li>
-          <li class="characters-item characters-item-two">
-            <p class="characters-text-bold">Food Critic Fred:</p>
-            <p class="characters-text">
-              A tough but fair food reviewer who provides valuable advice (and
-              challenges).
-            </p>
-          </li>
-          <li class="characters-item">
-            <p class="characters-text-bold">Sous-Chef Lily:</p>
-            <p class="characters-text">
-              The friendly helper who ensures every kitchen runs smoothly.
-            </p>
-          </li>
-          <li class="characters-item">
-            <p class="characters-text-bold">Mysterious Merchant: </p>
-            <p class="characters-text">
-              A quirky character who offers rare ingredients and decorations.
             </p>
           </li>
         </ul>
@@ -305,46 +216,6 @@
             <p class="reviews-text">
               "This game is so addictive! I love discovering new recipes and
               decorating my kitchen."
-            </p>
-          </li>
-          <li class="reviews-item">
-            <div class="reviews-item-top">
-              <img class="reviews-img" src="/img/reviews/image 13.png" alt="" />
-              <p class="reviews-text-bold">MergeMasterChef:</p>
-            </div>
-            <p class="reviews-text">
-              "It’s so satisfying to merge food and see what new dishes I
-              unlock."
-            </p>
-          </li>
-
-          <li class="reviews-item">
-            <div class="reviews-item-top">
-              <img class="reviews-img" src="/img/reviews/image 15.png" alt="" />
-              <p class="reviews-text-bold">KitchenCraze99:</p>
-            </div>
-            <p class="reviews-text">
-              "The perfect mix of puzzles and creativity. I can’t stop playing!"
-            </p>
-          </li>
-          <li class="reviews-item">
-            <div class="reviews-item-top">
-              <img class="reviews-img" src="/img/reviews/image 14.png" alt="" />
-              <p class="reviews-text-bold">CookingFanatic88:</p>
-            </div>
-            <p class="reviews-text">
-              "The decorations are amazing, and I love personalizing my
-              kitchen!"
-            </p>
-          </li>
-          <li class="reviews-item">
-            <div class="reviews-item-top">
-              <img class="reviews-img" src="/img/reviews/image 16.png" alt="" />
-              <p class="reviews-text-bold">RelaxAndPlay:</p>
-            </div>
-            <p class="reviews-text">
-              "The best game to unwind with. The characters are adorable, and
-              the gameplay is super fun!"
             </p>
           </li>
         </ul>
@@ -368,8 +239,8 @@
       <section class="faq" id="faq">
         <h2 class="about-title">FAQ</h2>
 
-        <div class="faq-container">
-          <div class="faq-item">
+        <ul class="faq-container">
+          <li class="faq-item">
             <div class="faq-question" onclick="toggleAnswer(this)">
               <span>Is "Merge Food - Chef Decoration" free to play?</span>
               <button class="toggle-button">
@@ -380,57 +251,8 @@
               Yes, the game is free to play with optional in-app purchases for
               special items.
             </div>
-          </div>
-
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>How do I unlock new decorations?</span>
-              <button class="toggle-button">
-                <img src="/img/faq/icon.png" alt="Toggle" />
-              </button>
-            </div>
-            <div class="faq-answer">
-              Complete orders, earn coins, and participate in events to unlock
-              exclusive kitchen items.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Can I play offline?</span>
-              <button class="toggle-button">
-                <img src="/img/faq/icon.png" alt="Toggle" />
-              </button>
-            </div>
-            <div class="faq-answer">
-              Yes, the game offers an offline mode, so you can enjoy it
-              anywhere, anytime.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>What are boosters, and how do I use them?</span>
-              <button class="toggle-button">
-                <img src="/img/faq/icon.png" alt="Toggle" />
-              </button>
-            </div>
-            <div class="faq-answer">
-              Boosters help you merge faster or clear challenging puzzles. Earn
-              them by completing tasks or purchasing them in-game.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Are there new updates?</span>
-              <button class="toggle-button">
-                <img src="/img/faq/icon.png" alt="Toggle" />
-              </button>
-            </div>
-            <div class="faq-answer">
-              Yes, new recipes, events, and decorations are regularly added to
-              keep the game exciting.
-            </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
 
       <section class="gallery" id="gallery">
@@ -439,18 +261,6 @@
         <ul class="gallery__list">
           <li class="gallery__item">
             <img class="gallery__image" src="./img/gallery/3.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/4.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/5.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/2.png" alt="" />
-          </li>
-          <li class="gallery__item">
-            <img class="gallery__image" src="./img/gallery/1.png" alt="" />
           </li>
         </ul>
         <div class="gallery-button-container">
@@ -482,40 +292,6 @@
               alt=""
             />
             <p class="features-text">Complete tasks for extra rewards.</p>
-          </li>
-
-          <li class="features-item">
-            <p class="features-text-bold">Interactive Kitchen</p>
-            <img
-              class="features-img"
-              src="/img/features/image (3).png"
-              alt=""
-            />
-            <p class="features-text">
-              Tap on objects in your kitchen to discover hidden animations.
-            </p>
-          </li>
-          <li class="features-item">
-            <p class="features-text-bold">Leaderboard</p>
-            <img
-              class="features-img"
-              src="/img/features/image (4).png"
-              alt=""
-            />
-            <p class="features-text">
-              Compete with players globally to become the top chef.
-            </p>
-          </li>
-          <li class="features-item">
-            <p class="features-text-bold">Mystery Boxes</p>
-            <img
-              class="features-img"
-              src="/img/features/image (5).png"
-              alt=""
-            />
-            <p class="features-text">
-              Unlock surprises filled with rare ingredients and decorations.
-            </p>
           </li>
         </ul>
       </section>
